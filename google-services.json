@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "311875987027",
+    "firebase_url": "https://beautifyadmin.firebaseio.com",
+    "project_id": "beautifyadmin",
+    "storage_bucket": "beautifyadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311875987027:android:ebde28eae55d975eaac8a6",
+        "android_client_info": {
+          "package_name": "com.symoh.beautifyadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311875987027-e2f4jo9g5fv9rl0kdslpc6ce7g19l59h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFH2XDRZL7FcVKCJ9AEsVXQEvmvt1e3m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311875987027-e2f4jo9g5fv9rl0kdslpc6ce7g19l59h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311875987027:android:c2e6436a925b5e80aac8a6",
+        "android_client_info": {
+          "package_name": "com.symoh.beautifywallpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311875987027-e2f4jo9g5fv9rl0kdslpc6ce7g19l59h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFH2XDRZL7FcVKCJ9AEsVXQEvmvt1e3m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311875987027-e2f4jo9g5fv9rl0kdslpc6ce7g19l59h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

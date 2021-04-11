@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+
+        android:checkableBehavior="single">
+        <item android:title="App">
+            <menu>
+
+                <item android:title="Online Wallpapers"
+                    android:icon="@drawable/data"
+                    android:id="@+id/mOn">
+
+                </item>
+                <item android:title="Offline Wallpapers"
+                    android:icon="@drawable/offline"
+                    android:id="@+id/mOff">
+
+                </item>
+                <item android:title="Share"
+                    android:icon="@drawable/share"
+                    android:id="@+id/mShare">
+
+                </item>
+            </menu>
+
+        </item>
+        <item android:title="More">
+            <menu>
+
+                <item android:title="Settings"
+                    android:icon="@drawable/settings"
+                    android:id="@+id/mSet"
+                    >
+
+                </item>
+                <item android:title="About Developer"
+                    android:icon="@drawable/code"
+                    android:id="@+id/mDev">
+
+                </item>
+            </menu>
+
+        </item>
+
+
+    </group>
+
+</menu>

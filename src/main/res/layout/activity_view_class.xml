@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    app:cardCornerRadius="24dp"
+
+    tools:context=".ViewClass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/imageDisplay"
+
+
+            />
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/textDisp"-->
+<!--            android:text="Image Description"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            android:gravity="center_horizontal"-->
+
+
+<!--            />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20sp"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Save Offline"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:onClick="StoreImage"
+                android:background="@drawable/buttons"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/Voffline"
+
+                />
+            //android:drawableLeft="@drawable/offline"
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Set Wallpaper"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+
+                android:background="@drawable/buttons"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/Vwallpaper"
+
+                />
+            // android:drawableRight="@drawable/wallpaper"
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/Vshare"
+            android:text="Share"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+
+            android:background="@drawable/buttons"
+            android:layout_marginLeft="3dp"
+
+            />
+        //android:drawableLeft="@drawable/share"
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/Vdownload"
+            android:text="Download"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+
+            android:background="@drawable/buttons"
+            android:layout_marginLeft="3dp"
+            />
+        //android:drawableRight="@drawable/download"
+
+        ></LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
